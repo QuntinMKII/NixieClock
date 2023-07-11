@@ -15,7 +15,7 @@ For nixie tube control (Made in 2017/Mar)
 
 ## About program
 
--It includes four modes that can be switched using buttons:
+- Includes four modes that can be switched using buttons:
 1. World Line Divergence Meter mode : Ref from Steins Gate, randomly display a series of numbers.
 2. Time mode
 3. Date mode

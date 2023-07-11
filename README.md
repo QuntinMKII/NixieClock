@@ -9,8 +9,8 @@ For nixie tube control (Made in 2017/Mar)
 
 - Arduino : controlling the display and switch of the Nixie Tube. With an RTC module to obtain the time.
 - Nixie Tube : Useing Soviet IN14 [datasheet](https://tubehobby.com/datasheets/in14.pdf)
-- 74HC595_digit : Due to the unavailability of the dedicated control IC K155ID1 for Nixie Tubes, the 74HC595 shift register is used along with several digital outputs of Arduino to control the display digits of the tubes.
-- 74HC595_tube :  Used to control individual tube illumination for achieving scanning display. It is used in conjunction with TLP627 to control the Gnd of the Nixie Tube, achieving individual switching effects.
+- 74HC595_digit : Due to the unavailability of the dedicated control IC K155ID1 for Nixie Tubes, the 74HC595 shift register is used along with several digital outputs of Arduino to control the display digits of the tubes. Also need an logic inverter if using 74HC595, which can achieved by a simple BJT inverter.
+- 74HC595_tube :  Used to control individual tube illumination for achieving scanning display. It is used in conjunction with TLP627 to control the anode of the Nixie Tube, achieving individual switching effects.
 - 12V-180V DC/DC converter : Originally, a circuit using NE555 was used, but later it was replaced with a circuit using MC34063.
 
 ## About program

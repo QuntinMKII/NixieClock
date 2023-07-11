@@ -1,5 +1,5 @@
 # NixieClock
-For nixie tube control
+For nixie tube control (Made in 2017/Mar)
 
 ![image](https://github.com/QuntinMKII/NixieClock/assets/50934318/80d9c474-d890-474b-a242-8e7597a50517)
 
